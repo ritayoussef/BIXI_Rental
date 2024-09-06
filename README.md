@@ -19,18 +19,22 @@ Fetch API: For making asynchronous HTTP requests to the backend services.
 How to Use
 
 Enter User Information:
+
 Input your first name and email address.
 Select the station ID from which you wish to start.
 
 Fetch and Display Information:
+
 Click the "Submit" button to retrieve user membership details, station information, and nearby stations.
 View your membership's free minutes and rates, along with regular bike availability at the starting station.
 
 Choose a Path:
+
 View a list of nearby stations and select a path by clicking on the provided buttons.
 Information about the distance and stations along the chosen path will be displayed.
 
 View Additional Information:
+
 Click on intermediate stations along the path to view additional details such as bike availability and geographic coordinates.
 Code Description
 
@@ -49,9 +53,15 @@ script.js: The JavaScript file containing the logic for interacting with the API
 API Endpoints
 
 GET /userInfo/{memberName}/{memberEmail}: Fetch user information based on name and email.
+
 GET /memberInfo/{membershipTypeId}: Retrieve membership details.
+
 GET /station/{stationId}: Get information about a specific bike station.
+
 GET /nearbystations/{stationId}: List nearby stations from a given starting station.
+
 GET /path/{firstStationId}/{secondStationId}: Get path information between two stations.
+
 GET /distance/{firstStationId}/{secondStationId}: Retrieve the distance between two stations.
+
 GET /averageBikeSpeed: Fetch the average bike speed.
