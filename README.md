@@ -1,9 +1,11 @@
 # BIXI_Rental
 
 Overview
+
 The Bike Rental Project is a web application that allows users to retrieve and display information related to bike rentals. It provides details about the user's membership, nearby bike stations, and paths between stations, including distance and additional station information. Users can interact with the application to select paths and view detailed data on bike availability and geographical location.
 
 Features
+
 User Information: Fetch and display the user's membership information based on their name and email.
 Station Information: Show details about the starting station and its bike availability.
 Nearby Stations: List and display nearby bike stations and allow users to choose paths between them.
@@ -13,6 +15,7 @@ Technologies Used
 HTML/CSS: For creating and styling the web interface.
 JavaScript: For dynamic content handling and API interactions.
 Fetch API: For making asynchronous HTTP requests to the backend services.
+
 How to Use
 
 Enter User Information:
@@ -38,11 +41,13 @@ Fetch Requests: Various API endpoints are called to fetch user info, station det
 Dynamic Content Updates: Content is dynamically updated based on the fetched data using JavaScript, creating buttons and displaying information on the web page.
 
 File Structure
+
 index.html: The main HTML file with the layout of the application.
 styles.css: The CSS file for styling the application.
 script.js: The JavaScript file containing the logic for interacting with the APIs and handling user input.
 
 API Endpoints
+
 GET /userInfo/{memberName}/{memberEmail}: Fetch user information based on name and email.
 GET /memberInfo/{membershipTypeId}: Retrieve membership details.
 GET /station/{stationId}: Get information about a specific bike station.
