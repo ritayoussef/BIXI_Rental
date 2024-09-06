@@ -1,0 +1,30 @@
+<html> 
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+    <body>        
+      <h1>BIXI RENTAL</h1>
+    <form id="userForm">
+        <label for="firstName" style="color: tomato" >First Name:</label><br>
+    <input type="text" id="firstName" required><br>
+
+        <label for="email" style="color: tomato" >Email Address:</label><br>
+    <input type="email" id="email" required><br>    
+
+        <label for="stationId" style="color: tomato">Station Id:</label><br>
+     <input type="number" id="stationId" required><br>
+
+        <label for="maxMinutes"style="color: tomato" >Enter the maximum minutes you would like to spend on the trip:</label><br>
+        <input type="range" id="maxMinutes" min="30" max="240" value="120" class="slider"><br>
+        <p style="color:rgba(255, 0, 0, 0.802)">Time chosen: <span id="range-value"></span></p>
+
+        <button type="button" id="button">Submit</button>     
+      </form>
+
+      <div id="userInfo"></div>
+      <div id="neighbouringStations"></div>
+      <div id="chosenPath"></div>
+
+     
+    </body>
+</html>
+
