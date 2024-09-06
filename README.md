@@ -38,11 +38,17 @@ Information about the distance and stations along the chosen path will be displa
 Click on intermediate stations along the path to view additional details such as bike availability and geographic coordinates.
 Code Description
 
-### Event Listeners: Listeners are added to handle user interactions such as clicking the "Submit" button and selecting paths between stations.
+### Event Listeners: 
 
-### Fetch Requests: Various API endpoints are called to fetch user info, station details, path information, and more.
+Listeners are added to handle user interactions such as clicking the "Submit" button and selecting paths between stations.
 
-### Dynamic Content Updates: Content is dynamically updated based on the fetched data using JavaScript, creating buttons and displaying information on the web page.
+### Fetch Requests: 
+
+Various API endpoints are called to fetch user info, station details, path information, and more.
+
+### Dynamic Content Updates: 
+
+Content is dynamically updated based on the fetched data using JavaScript, creating buttons and displaying information on the web page.
 
 ## File Structure
 
