@@ -1,75 +1,98 @@
-# BIXI_Rental
+# 🚲 **BIXI_Rental**
 
-## Overview
+## 🌟 **Overview**
 
-The Bike Rental Project is a web application that allows users to retrieve and display information related to bike rentals. It provides details about the user's membership, nearby bike stations, and paths between stations, including distance and additional station information. Users can interact with the application to select paths and view detailed data on bike availability and geographical location.
+The **Bike Rental Project** is a web application that allows users to retrieve and display information related to bike rentals. It provides details about the user's membership, nearby bike stations, and paths between stations, including distance and additional station information. Users can interact with the application to select paths and view detailed data on bike availability and geographical location.
 
-## Features
+---
 
-- User Information: Fetch and display the user's membership information based on their name and email.
-- Station Information: Show details about the starting station and its bike availability.
-- Nearby Stations: List and display nearby bike stations and allow users to choose paths between them.
-- Chosen Path Details: Display details about the chosen path, including distance and intermediate stations.
-- Additional Station Information: Provide extra details such as bike availability, longitude, and latitude for each selected station.
-  
-## Technologies Used
+## 🔑 **Features**
 
-- HTML/CSS: For creating and styling the web interface.
-- JavaScript: For dynamic content handling and API interactions.
-- Fetch API: For making asynchronous HTTP requests to the backend services.
+- 🧑‍💻 **User Information**: Fetch and display the user's membership information based on their name and email.
+- 🏢 **Station Information**: Show details about the starting station and its bike availability.
+- 📍 **Nearby Stations**: List and display nearby bike stations and allow users to choose paths between them.
+- 🛤️ **Chosen Path Details**: Display details about the chosen path, including distance and intermediate stations.
+- ℹ️ **Additional Station Information**: Provide extra details such as bike availability, longitude, and latitude for each selected station.
 
-## How To Use The Application
+---
 
-### Enter User Information:
+## 💻 **Technologies Used**
 
-Input your first name and email address.
-Select the station ID from which you wish to start.
+- 🖋️ **HTML/CSS**: For creating and styling the web interface.
+- ✨ **JavaScript**: For dynamic content handling and API interactions.
+- 🔄 **Fetch API**: For making asynchronous HTTP requests to the backend services.
 
-### Fetch and Display Information:
+---
 
-Click the "Submit" button to retrieve user membership details, station information, and nearby stations.
-View your membership's free minutes and rates, along with regular bike availability at the starting station.
+## 📖 **How To Use The Application**
 
-### Choose a Path:
+### 1️⃣ **Enter User Information:**
+- Input your **first name** and **email address**.
+- Select the **station ID** from which you wish to start.
 
-View a list of nearby stations and select a path by clicking on the provided buttons.
-Information about the distance and stations along the chosen path will be displayed.
+### 2️⃣ **Fetch and Display Information:**
+- Click the **"Submit" button** to retrieve:
+  - 🚴 User membership details.
+  - 📊 Station information.
+  - 📍 Nearby stations.
+- View:
+  - Your membership's **free minutes** and **rates**.
+  - Regular bike **availability** at the starting station.
 
-### View Additional Information:
+### 3️⃣ **Choose a Path:**
+- View a list of **nearby stations**.
+- Select a path by clicking on the provided **buttons**.
+- Information about the **distance** and **stations along the chosen path** will be displayed.
 
-Click on intermediate stations along the path to view additional details such as bike availability and geographic coordinates.
-Code Description
+### 4️⃣ **View Additional Information:**
+- Click on **intermediate stations** along the path to view:
+  - 🚲 Bike availability.
+  - 📍 Geographic coordinates (longitude and latitude).
 
-### Event Listeners: 
+---
 
-Listeners are added to handle user interactions such as clicking the "Submit" button and selecting paths between stations.
+## 🛠️ **Code Description**
 
-### Fetch Requests: 
+### ⚡ **Event Listeners:**
+- Listeners handle user interactions such as:
+  - Clicking the **"Submit" button**.
+  - Selecting **paths** between stations.
 
-Various API endpoints are called to fetch user info, station details, path information, and more.
+### 🔄 **Fetch Requests:**
+- API endpoints are called to fetch:
+  - User info.
+  - Station details.
+  - Path information.
+  - Additional station data.
 
-### Dynamic Content Updates: 
+### 🖼️ **Dynamic Content Updates:**
+- Content is dynamically updated using JavaScript to:
+  - Display station and path details.
+  - Create interactive buttons.
 
-Content is dynamically updated based on the fetched data using JavaScript, creating buttons and displaying information on the web page.
+---
 
-## File Structure
+## 📂 **File Structure**
 
-- index.html: The main HTML file with the layout of the application.
-- styles.css: The CSS file for styling the application.
-- script.js: The JavaScript file containing the logic for interacting with the APIs and handling user input.
+- 📄 **index.html**: The main HTML file with the layout of the application.
+- 🎨 **styles.css**: The CSS file for styling the application.
+- 🛠️ **script.js**: The JavaScript file containing logic for interacting with APIs and handling user input.
 
-## API Endpoints
+---
 
-GET /userInfo/{memberName}/{memberEmail}: Fetch user information based on name and email.
+## 🌐 **API Endpoints**
 
-GET /memberInfo/{membershipTypeId}: Retrieve membership details.
+| 🌍 **Endpoint**                           | 🔎 **Description**                                                   |
+|-------------------------------------------|----------------------------------------------------------------------|
+| **GET /userInfo/{memberName}/{memberEmail}** | Fetch user information based on name and email.                     |
+| **GET /memberInfo/{membershipTypeId}**     | Retrieve membership details.                                         |
+| **GET /station/{stationId}**               | Get information about a specific bike station.                      |
+| **GET /nearbystations/{stationId}**        | List nearby stations from a given starting station.                 |
+| **GET /path/{firstStationId}/{secondStationId}** | Get path information between two stations.                          |
+| **GET /distance/{firstStationId}/{secondStationId}** | Retrieve the distance between two stations.                         |
+| **GET /averageBikeSpeed**                  | Fetch the average bike speed.                                        |
 
-GET /station/{stationId}: Get information about a specific bike station.
+---
 
-GET /nearbystations/{stationId}: List nearby stations from a given starting station.
-
-GET /path/{firstStationId}/{secondStationId}: Get path information between two stations.
-
-GET /distance/{firstStationId}/{secondStationId}: Retrieve the distance between two stations.
-
-GET /averageBikeSpeed: Fetch the average bike speed.
+## 🚴 **Enjoy Your Ride!**
+Make your biking experience more enjoyable with **BIXI_Rental**! 🛤️✨
