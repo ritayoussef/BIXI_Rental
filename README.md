@@ -52,9 +52,9 @@ Content is dynamically updated based on the fetched data using JavaScript, creat
 
 ## File Structure
 
-index.html: The main HTML file with the layout of the application.
-styles.css: The CSS file for styling the application.
-script.js: The JavaScript file containing the logic for interacting with the APIs and handling user input.
+- index.html: The main HTML file with the layout of the application.
+- styles.css: The CSS file for styling the application.
+- script.js: The JavaScript file containing the logic for interacting with the APIs and handling user input.
 
 ## API Endpoints
 
