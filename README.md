@@ -6,15 +6,17 @@ The Bike Rental Project is a web application that allows users to retrieve and d
 
 ## Features
 
-User Information: Fetch and display the user's membership information based on their name and email.
-Station Information: Show details about the starting station and its bike availability.
-Nearby Stations: List and display nearby bike stations and allow users to choose paths between them.
-Chosen Path Details: Display details about the chosen path, including distance and intermediate stations.
-Additional Station Information: Provide extra details such as bike availability, longitude, and latitude for each selected station.
-Technologies Used
-HTML/CSS: For creating and styling the web interface.
-JavaScript: For dynamic content handling and API interactions.
-Fetch API: For making asynchronous HTTP requests to the backend services.
+- User Information: Fetch and display the user's membership information based on their name and email.
+- Station Information: Show details about the starting station and its bike availability.
+- Nearby Stations: List and display nearby bike stations and allow users to choose paths between them.
+- Chosen Path Details: Display details about the chosen path, including distance and intermediate stations.
+- Additional Station Information: Provide extra details such as bike availability, longitude, and latitude for each selected station.
+  
+##Technologies Used
+
+- HTML/CSS: For creating and styling the web interface.
+- JavaScript: For dynamic content handling and API interactions.
+- Fetch API: For making asynchronous HTTP requests to the backend services.
 
 ## How to Use
 
