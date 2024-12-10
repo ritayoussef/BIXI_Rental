@@ -12,7 +12,7 @@ The Bike Rental Project is a web application that allows users to retrieve and d
 - Chosen Path Details: Display details about the chosen path, including distance and intermediate stations.
 - Additional Station Information: Provide extra details such as bike availability, longitude, and latitude for each selected station.
   
-##Technologies Used
+## Technologies Used
 
 - HTML/CSS: For creating and styling the web interface.
 - JavaScript: For dynamic content handling and API interactions.
