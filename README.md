@@ -18,7 +18,7 @@ The Bike Rental Project is a web application that allows users to retrieve and d
 - JavaScript: For dynamic content handling and API interactions.
 - Fetch API: For making asynchronous HTTP requests to the backend services.
 
-## How to Use
+## How to Use The Application
 
 ### Enter User Information:
 
